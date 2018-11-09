@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "env": {
+      "automatically_extensible": true,
+      "data": [],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    },
+    "jwt": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "env"
+          ],
+          "value": "environment"
+        }
+      ],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "jwt": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Generate jwt token for "
+            },
+            {
+              "entity": "env",
+              "slot_name": "env",
+              "text": "dev"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "show me an auth token in "
+            },
+            {
+              "entity": "env",
+              "slot_name": "env",
+              "text": "qat"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "create a token for "
+            },
+            {
+              "entity": "env",
+              "slot_name": "env",
+              "text": "uat"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need a jwt token for "
+            },
+            {
+              "entity": "env",
+              "slot_name": "env",
+              "text": "uat"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what do I need to authenticate api on "
+            },
+            {
+              "entity": "env",
+              "slot_name": "env",
+              "text": "uat"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

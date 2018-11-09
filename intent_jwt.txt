@@ -1,0 +1,6 @@
+Generate jwt token for [env:env](dev)
+show me an auth token in [env:env](qat)
+create a token for [env:env](uat)
+I need a jwt token for [env:env](uat)
+what do I need to authenticate api on [env:env](uat)
+what do I need to authenticate service on [env:env](uat)

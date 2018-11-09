@@ -1,0 +1,1 @@
+snips-nlu generate-dataset en intent_jwt.txt entity_jwt.txt
